@@ -142,5 +142,3 @@ with tab_benchmark:
     }
     df_bench = pd.DataFrame(benchmark_data)
     st.dataframe(df_bench, use_container_width=True)
-    
-    st.info("💡 **Viva Demonstration Tip:** Random Forest achieved top rank across ROC-AUC (0.9104) and Weighted F1 (87.99%). Menuja's MLP utilized the 6-component PCA subspace to demonstrate dimensionality reduction trade-offs.")
